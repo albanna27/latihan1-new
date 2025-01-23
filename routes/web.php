@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\HomeC;
+use App\Http\Controllers\Baru;
 
-Route::get('/dashboard',[HomeC::class, 'index'])->name('dashboard.index'); {
+Route::get('/tugas',[Baru::class, 'index'])->name('dashboard.index'); {
     return view('latihan');
 }
